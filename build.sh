@@ -15,10 +15,10 @@
 # git checkout deploy
 # git pull
 
-chmod +x ../db.sh
-chmod +x ../php.sh
-chmod +x ../apache.sh
+chmod +x db.sh
+chmod +x php.sh
+chmod +x apache.sh
 
-bash ../db.sh
-bash ../php.sh
-bash ../apache.sh
+bash db.sh
+bash php.sh
+bash apache.sh
