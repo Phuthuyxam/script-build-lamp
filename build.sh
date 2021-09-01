@@ -19,6 +19,6 @@ chmod +x db.sh
 chmod +x php.sh
 chmod +x apache.sh
 
-../db.sh
-../php.sh
-../apache.sh
+db.sh
+php.sh
+apache.sh
