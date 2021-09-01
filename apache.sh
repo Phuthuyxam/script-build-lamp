@@ -24,7 +24,7 @@ mkdir -p "/var/www/${your_domain}/html"
 
 mkdir -p "/var/www/${your_domain}/log"
 
-cp -r src/* "/var/www/${your_domain}/html"
+cp -r src/src_deploy/* "/var/www/${your_domain}/html"
 
 chown -R apache:apache "/var/www/${your_domain}/html"
 
