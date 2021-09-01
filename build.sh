@@ -8,8 +8,8 @@ git reset --hard
 git checkout develop
 git pull
 
-cd ..
-cd src_deploy
+
+cd ../src_deploy
 git clean -xdf
 git reset --hard
 git checkout deploy
